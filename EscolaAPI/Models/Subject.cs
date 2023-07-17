@@ -5,13 +5,10 @@ using System.Threading.Tasks;
 
 namespace EscolaAPI.Models
 {
-    public class Boletim
+    public class Subject
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; }
-        public int StudentId { get; set; }
-        public Student Student { get; set; }
-
+        public string Name { get; set; }
         public ICollection<GradeSubject>GradeSubjects { get; set; }
     }
 }

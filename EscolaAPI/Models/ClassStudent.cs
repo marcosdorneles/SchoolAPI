@@ -11,5 +11,6 @@ namespace EscolaAPI.Models
         public Student Student { get; set; }
         public int ClassId { get; set; }
         public Class Class { get; set; }
+
     }
 }

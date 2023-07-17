@@ -8,7 +8,8 @@ namespace EscolaAPI.Models
     public class Class
     {
         public int Id { get; set; }
-        public string Course { get; set; }
-        public ICollection<ClassStudent>Students  { get; set; }
+        public string subject {get; set;}
+        public string Name { get; set;}
+        public ICollection<ClassStudent>Students { get; set; }
     }
 }

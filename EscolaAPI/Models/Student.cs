@@ -13,6 +13,8 @@ namespace EscolaAPI.Models
         public int Age { get; set; }
         public string Email { get; set; }
         public DateTime BirthDay { get; set; }
-        
+        public ICollection<Boletim>Boletins { get; set; }
+        public ICollection<ClassStudent>Classes { get; set; }
+
     }
 }
